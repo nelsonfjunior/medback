@@ -21,6 +21,7 @@ public class Medicamento {
     private String id;
 
     private String nomeRemedio;
+    private String formaDeUso;
     private double dosagem;
     private String descricao;
 

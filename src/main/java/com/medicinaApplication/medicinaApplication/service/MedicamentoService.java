@@ -37,6 +37,7 @@ public class MedicamentoService {
             return null;
         }
         consultaToUpdate.setNomeRemedio(consulta.getNomeRemedio());
+        consultaToUpdate.setFormaDeUso(consulta.getFormaDeUso());
         consultaToUpdate.setDosagem(consulta.getDosagem());
         consultaToUpdate.setDescricao(consulta.getDescricao());
         return ResponseEntity.ok(medicamentoRepository.save(consultaToUpdate));
